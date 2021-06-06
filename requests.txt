@@ -1,5 +1,0 @@
-requests
-asyncio
-aiohttp
-beautifulsoup4
-pandas

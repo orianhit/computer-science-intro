@@ -1,0 +1,8 @@
+requests
+asyncio
+aiohttp
+beautifulsoup4
+pandas
+pickle
+sklearn
+ipywidgets

@@ -18,8 +18,8 @@ if __name__ == '__main__':
         for td in soup.find_all("td", {"data-th": "Database name"}):
             if td.find('a'):
                 db_link = td.find('a')['href']
-            # if 'abelias' in db_link:
-            if 'crepe-myrtles' in db_link:
+            if 'abelias' in db_link:
+            # if 'crepe-myrtles' in db_link:
                 should_start = True
             if should_start:
                 print(db_link)
